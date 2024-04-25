@@ -18,11 +18,11 @@ To get started with this script, you need to have Python installed on your syste
 !python scraper.py --time-limit 10 --page-limit 20
 
 ### Customization:
-- The script is versatile and can be tailored to fit various marketplace websites. Adjustments can be made by modifying the regular expressions used for parsing and the `extract_product_data` function to match the specific HTML structure of other sites.
+- The script can be tailored to fit various marketplace websites. Adjustments can be made by modifying the regular expressions used for parsing and the `extract_product_data` function to match the specific HTML structure of other sites.
 
 ### Usage Recommendations:
-- **IP Rotation**: To minimize the risk of IP blocking, it is advisable to use IP rotation software when making multiple requests.
+- **IP Rotation**: To minimize the risk of IP blocking, it is recommended to use IP rotation software when making multiple requests.
 - **Delay Mechanism**: Implementing a random sleep delay between requests can help avoid triggering anti-bot measures.
 
 ### Important Note:
-Scraping data from websites should be done responsibly and ethically. Ensure that you comply with the legal requirements and terms of service of the websites parsed.
+Ensure that you comply with the legal requirements and terms of service of the websites parsed. Most restrictions are usually listed in a "robots.txt" file.
